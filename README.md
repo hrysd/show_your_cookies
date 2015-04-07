@@ -14,7 +14,18 @@ And then execute:
 
 ## Usage
 
-After install this gem, logging session like below.
+After install this gem, insert following line to controller.
+
+```ruby
+class WelcomeController < ApplicationController
+  before_action :show_your_cookies
+
+  def show
+  end
+end
+```
+
+then logging session like below.
 
 ![](https://cloud.githubusercontent.com/assets/1663465/6933232/75dbbf30-d85f-11e4-92ce-c4149878df58.png)
 
